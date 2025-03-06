@@ -12,3 +12,9 @@ class GFG{
         }
         }
     }
+output:
+element at index0:10
+element at index1:20
+element at index2:30
+element at index3:40
+element at index4:50
