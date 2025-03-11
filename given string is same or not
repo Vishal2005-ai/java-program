@@ -1,0 +1,12 @@
+public class ChecksStringContentIgnoringCases {
+    public static void main(String[] args)
+    {
+        String firststring = "MY NAME IS KK!";
+        String secondstring="my name is kk!";
+        System.out.println("checking using equals() method:"+firststring.equals(secondstring));
+        System.out.println("checking using equalsIgnoreCase() method:"+firststring.equalsIgnoreCase(secondstring));
+    }
+}
+output:
+checking using equals() method:false
+checking using equalsIgnoreCase() method:true
