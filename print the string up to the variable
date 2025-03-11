@@ -1,0 +1,15 @@
+class GFG {
+    public static void main(String[] args)
+    {
+        StringBuffer str=new StringBuffer();
+        str.append("java");
+        str.append("is");
+        str.append("popular");
+        System.out.println("StringBuffer: " + str);
+        str.delete(5, str.length());
+        System.out.println("updated StringBuffer: " + str);
+    }
+}
+output:
+StringBuffer: javaispopular
+updated StringBuffer: javai
