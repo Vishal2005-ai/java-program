@@ -1,9 +1,9 @@
 public class ChecksStringContentIgnoringCases {
     public static void main(String[] args)
     {
-        String txt = "welcome TO sAtHyAbAmA";
-        System.out.println(txt.toUpperCase());
-        System.out.println(txt.toLowerCase());
+        String s = "welcome TO sAtHyAbAmA";
+        System.out.println(s.toUpperCase());
+        System.out.println(s.toLowerCase());
     }
 }
 output:
