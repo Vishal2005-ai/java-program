@@ -1,0 +1,11 @@
+public class ChecksStringContentIgnoringCases {
+    public static void main(String[] args)
+    {
+        String txt = "welcome TO sAtHyAbAmA";
+        System.out.println(txt.toUpperCase());
+        System.out.println(txt.toLowerCase());
+    }
+}
+output:
+WELCOME TO SATHYABAMA
+welcome to sathyabama
