@@ -1,0 +1,9 @@
+class GFG {
+    public static void main(String[] args){
+        String s="WELCOME TO SATHYABAMA";
+        char k = s.charAt(11);
+        System.out.println(k);
+    }
+}
+output:
+S
